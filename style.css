@@ -6,16 +6,25 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejN3aHBhZ3RhNWRkeTY2YzBlNXl5M3NwMm96cjMwdGs5OTYza2F6aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rmZ7hzzDnSyA8hd3Jv/giphy.gif")
+    no-repeat center center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  gap: 80px;
+}
+
+.pinguin {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(153, 215, 249, 0.95);
   border-radius: 20px;
   padding: 40px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
@@ -80,15 +89,14 @@ h1 {
 }
 
 .task-item {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #9ccaf8 10%, #77abf9 50%, #0734fb 100%);
   margin-bottom: 15px;
   padding: 20px;
   border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  animation: slideIn 0.3s ease;
-  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.3);
+  animation: slideIn 0.3s ease, box-shadow 0 4px 15px rgba(245, 87, 108, 0.3);
   transition: all 0.3s ease;
 }
 
